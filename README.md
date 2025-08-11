@@ -16,18 +16,31 @@ It can handle product lookups from a database and answer FAQs, making it suitabl
 
 ## 📂 Project Structure
 project/
+
 │
 ├── app.py # Main Flask application
-├── models.py # SQLAlchemy models for products & FAQs
+
+
 ├── templates/
+
 │ └── index.html # Chatbot frontend
+
+
 ├── static/
+
 │ ├── style.css # Styling
+
 │ └── script.js # For Logic
+
+
 ├── requirements.txt # Dependencies
+
+
 └── README.md # Project documentation
 
+
  How It Works
+ 
 User sends a query via the web UI or API.
 
 Flask routes the message to the backend.
@@ -40,7 +53,9 @@ If not found, it sends the query to OpenRouter API for AI-generated response.
 
 The reply is displayed in the chatbot UI.
 
+
 📜 Requirements
+
 Python 3.8+
 
 Flask
@@ -58,7 +73,9 @@ Copy
 Edit
 pip install flask sqlalchemy python-dotenv requests
 
+
 📌 Future Improvements
+
 Add authentication for API endpoints.
 
 Support multimedia responses.
