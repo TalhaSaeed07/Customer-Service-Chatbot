@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div id="chat-container">
+      <h1>Customer service Chatbot</h1>
+      <div id="chat-box"></div>
+      <div class="send_buttons">
+        <textarea
+          id="user-input"
+          placeholder="Type your message..."
+          rows="1"
+        ></textarea>
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </body>
+</html>
