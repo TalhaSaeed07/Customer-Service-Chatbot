@@ -39,7 +39,8 @@ project/
 └── README.md # Project documentation
 
 
- How It Works
+
+⚙️ How It Works
  
 User sends a query via the web UI or API.
 
@@ -52,6 +53,7 @@ If found, it returns the predefined answer.
 If not found, it sends the query to OpenRouter API for AI-generated response.
 
 The reply is displayed in the chatbot UI.
+
 
 
 📜 Requirements
@@ -72,6 +74,7 @@ bash
 Copy
 Edit
 pip install flask sqlalchemy python-dotenv requests
+
 
 
 📌 Future Improvements
