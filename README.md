@@ -8,7 +8,7 @@ It can handle product lookups from a database and answer FAQs, making it suitabl
 ## 🚀 Features
 - **Product Lookup:** Search for products in a SQL database by name or category.  
 - **FAQ Support:** Predefined answers for common queries.  
-- **LLM Integration:** Uses OpenRouter API for intelligent and conversational responses.  
+- **LLM Integration:** Uses Deepseek API for intelligent and conversational responses.  
 - **Web Interface:** Simple HTML/CSS/JS frontend for interaction.  
 - **REST API Endpoints:** Easily integrable into other applications.
 - **Session Memory:** The chatbot retains previous conversation context within a session to provide more relevant and coherent responses.
